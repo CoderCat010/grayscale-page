@@ -12,7 +12,7 @@
    GLOBAL STYLES
    ========================== */
    body{
-      font-family: "Oswald", sans-serif;
+      font-family: "Nunito", sans-serif;
       scroll-behavior: smooth;
       
    }
@@ -35,14 +35,7 @@
 /* ==========================
    HEADER PART STYLES
    ========================== */
-header{
-   background-color: rgba(5, 5, 5, 0.473);
-   width: 100%;
-   height: 100%; 
-   padding: 30px 100px 0 100px;
-}
-
-.header-part-opacity{
+.header-part{
     background-image: url(./assets/img/bg-masthead.jpg);
     width: 100%;
     height: 100vh;
@@ -51,6 +44,16 @@ header{
     background-size: cover;
 }
 
+.header-part-opacity{
+   background-color: rgba(5, 5, 5, 0.473);
+   width: 100%;
+   height: 100%; 
+   padding: 30px 100px 0 100px;
+}
+
+/* 
+========Nav PART========
+*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -58,7 +61,7 @@ nav{
 
 .header-tile{
     font-size: 30px;
-    color: #bebebe;
+    color: #d8d8d8;
 }
 
 .nav-list{
@@ -67,4 +70,42 @@ nav{
     gap: 60px;
     color: #bebebe;
     font-weight: 400;
+}
+
+
+/* ==========================
+    BANNER PART STYLES
+   ========================== */
+/* 
+========Banner PART========
+*/
+.banner-part{
+    color: #d8d8d8;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.banner-part h1{
+    font-size: 150px;
+    font-weight: 400;
+    background: linear-gradient(to bottom, #ffffff, #00000027); /* উপরে সাদা, নিচে কালো */
+    -webkit-background-clip: text;  /* শুধু text এ gradient দেখানোর জন্য */
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-part p{
+   font-size: 20px; 
+   max-width: 600px;         
+   margin: 20px auto 40px auto;      
+   text-align: center;     
+   color: #b9b9b9; 
+}
+
+.banner-part button{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    background-color: #71a3a0;
+    color: white;
+    border-radius: 5px;
 }
