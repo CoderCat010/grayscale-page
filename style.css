@@ -30,3 +30,41 @@
    button, i, img{
       cursor: pointer;
    }
+
+
+/* ==========================
+   HEADER PART STYLES
+   ========================== */
+header{
+   background-color: rgba(5, 5, 5, 0.473);
+   width: 100%;
+   height: 100%; 
+   padding: 30px 100px 0 100px;
+}
+
+.header-part-opacity{
+    background-image: url(./assets/img/bg-masthead.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-tile{
+    font-size: 30px;
+    color: #bebebe;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    color: #bebebe;
+    font-weight: 400;
+}
