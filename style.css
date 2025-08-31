@@ -72,6 +72,9 @@ nav{
     font-weight: 400;
 }
 
+.nav-list li:hover{
+    color: #ffffff;
+}
 
 /* ==========================
     BANNER PART STYLES
@@ -86,17 +89,17 @@ nav{
 }
 
 .banner-part h1{
-    font-size: 150px;
+    font-size: 155px;
     font-weight: 400;
-    background: linear-gradient(to bottom, #ffffff, #00000027); /* উপরে সাদা, নিচে কালো */
-    -webkit-background-clip: text;  /* শুধু text এ gradient দেখানোর জন্য */
+    background: linear-gradient(to bottom, #ffffff, #00000018); 
+    background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
 
 .banner-part p{
    font-size: 20px; 
-   max-width: 600px;         
-   margin: 20px auto 40px auto;      
+   max-width: 500px;         
+   margin: 10px auto 40px auto;      
    text-align: center;     
    color: #b9b9b9; 
 }
@@ -108,4 +111,43 @@ nav{
     background-color: #71a3a0;
     color: white;
     border-radius: 5px;
+}
+
+
+/* ==========================
+    Main Section STYLES
+   ========================== */
+/* 
+/* 
+========Section PART 1========
+*/
+.section1{
+    background: linear-gradient(to bottom, #000000f7, #0000008e); 
+    width: 100%;
+    height: 100%;
+    padding: 150px 100px 0 100px;
+}
+
+.built-theme{
+    justify-content: center;
+    text-align: center;
+}
+
+.built-theme h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.built-theme p{
+   font-size: 18px;     
+   text-align: center;     
+   color: #828282; 
+   max-width: 700px; 
+   margin: 30px auto 100px auto;
+}
+
+.theme-img img{
+    width: 100%;
+    height: 100%;
 }
