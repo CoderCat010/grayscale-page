@@ -266,18 +266,22 @@ nav{
    text-align: center;
    align-items: center;
    padding-top: 30px;
-   gap: 30px;
+   gap: 25px;
 }
 
 .receive-updates-mail input{
-    padding: 0 200px;
+    text-align: left;  
+    width: 500px;
+    padding-left: 15px;
     height: 60px;
     border: none;
     border-radius: 8px;
+    box-shadow: none;
+    outline: none;
 }
 
 .receive-updates button{
-    padding: 24px 50px;
+    padding: 22px 50px;
     background-color: #71a3a0ab;
     border: none;
     color: #ffffff94;
