@@ -232,3 +232,62 @@ nav{
     margin: 0 90px;
     color: #b9b9b9;
 }
+
+
+/* 
+========Section PART 4========
+*/
+.section4{
+    background-image: url(./assets/img/bg-signup.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.receive-updates{
+   background-color: rgba(5, 5, 5, 0.473);
+   height: 100%; 
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
+
+.receive-updates h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.receive-updates-mail{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   padding-top: 30px;
+   gap: 30px;
+}
+
+.receive-updates-mail input{
+    padding: 0 200px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+}
+
+.receive-updates button{
+    padding: 24px 50px;
+    background-color: #71a3a0ab;
+    border: none;
+    color: #ffffff94;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.receive-updates input::placeholder{
+    font-size: 16px;
+    color: #7a7a7a; 
+}
+
+
