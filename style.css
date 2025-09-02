@@ -295,3 +295,57 @@ nav{
 }
 
 
+/* 
+========FOOTER SECTION PART========
+*/
+footer{
+   background-color: #000; 
+   height: 100vh; 
+   color: #fff;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.footer-info-cards{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+.info-container{
+    background-color: floralwhite;
+    color: black;
+    width: 300px;
+    border-radius: 10px;
+    border-bottom: 10px solid #71a3a0;
+}
+
+.info-container .icon{
+    color: #71a3a0;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.info-container hr{
+    border-bottom: 3px solid #71a3a0;
+    margin: 20px auto;
+    max-width: 50px;
+}
+
+.info-container h3{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 5px 0 0 0;
+}
+
+.info-container p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #828282;
+}
+
+
+
