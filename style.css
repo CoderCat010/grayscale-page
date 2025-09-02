@@ -305,6 +305,7 @@ footer{
    justify-content: center;
    align-items: center;
    text-align: center;
+   border-top: 1px solid #b9b9b986;
 }
 
 .footer-info-cards{
@@ -345,6 +346,21 @@ footer{
     font-weight: 400;
     margin-bottom: 30px;
     color: #828282;
+}
+
+.footer-social-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.footer-social-links ion-icon{
+    color: #8D8D8D;
+    background-color: #1A1A1A;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 50%;
 }
 
 
